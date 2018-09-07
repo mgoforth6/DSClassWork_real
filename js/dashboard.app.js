@@ -74,6 +74,7 @@ var dashboardApp = new Vue({
     pretty_date: function (d) {
       return d;
     },
-    log (msg)
+    log (msg) {
+    }
   }
 })
