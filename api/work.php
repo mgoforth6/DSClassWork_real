@@ -58,4 +58,6 @@ $arr2 = [
   1 => 'two',
   3 => 'three'];
 
-  
+foreach($arr2 as $key=>$val) {
+  echo $key . ':' .$val;
+}
